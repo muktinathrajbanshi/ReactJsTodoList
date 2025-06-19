@@ -144,13 +144,24 @@ figcaption {
 }
 
 .showItems .btn.effect-04 {
-  width: 100px;
-  height: 30px;
+  position: relative;
+  width: 120px;
+  height: 35px;
   background: #fff;
   color: black;
-  font-size: 9px;
-  font-weight: 300;
+  font-size: 12px;
+  font-weight: 500;
   letter-spacing: 1px;
+}
+
+.btn.effect-04::after {
+  content: attr(data-sm-link-text);
+  position: absolute;
+  color: #fff;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  font-size: 9px;
+  white-space: nowrap;
 }
 
 .btn span {
@@ -163,26 +174,28 @@ figcaption {
   -o-transition: transform 0.3s ease;
 }
 
-.btn::after {
-  content: attr(data-sm-link-text);
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%) scale(0);
+.btn.effect-04:hover {
+  background-color: #3c40c6;
   color: #fff;
-  transition: transform 0.3s ease;
-  white-space: nowrap;
-  pointer-events: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  -webkit-transition: background-color 0.3s ease;
+  -moz-transition: background-color 0.3s ease;
+  -ms-transition: background-color 0.3s ease;
+  -o-transition: background-color 0.3s ease;
 }
 
 .btn.effect-04:hover span {
-  transform: scale(0);
+  opacity: 0;
 }
 
 .btn.effect-04:hover::after {
-  transform: translate(-50%, -50%) scale(1);
+  font-size: 12px;
+  opacity: 1;
+  text-transform: uppercase;
+  transition: opacity 0.3s ease;
+  -webkit-transition: opacity 0.3s ease;
+  -moz-transition: opacity 0.3s ease;
+  -ms-transition: opacity 0.3s ease;
+  -o-transition: opacity 0.3s ease;
 }
-
-/* .showItems .btn:hover {
-  background-color: #3c40c6;
-} */
