@@ -22,6 +22,9 @@ const Todo = () => {
           return elem;
         })
       )
+      setToggleSubmit(true);
+      setInputData("");
+      setIsEditItem(null);
     }else {
       const allInputData = { id: new Date().getTime().toString(), name:inputData }
       setItems([...items, allInputData]);
