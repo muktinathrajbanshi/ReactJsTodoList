@@ -23,7 +23,9 @@ const Todo = () => {
                     <i className="fa-solid fa-trash delete-btn" title="Delete Item"></i>
                 </div>
             </div>
-
+            <div className="showItems">
+              <button className="btn effect-04" data-sm-link-text="Remove All"><span>CHECK LIST</span></button>
+            </div>
         </div>
       </div>
     </>
