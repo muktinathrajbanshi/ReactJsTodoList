@@ -1,38 +1,103 @@
-.App {
-  text-align: center;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Source Sans Pro", sans-serif;
+  background-color: #060822;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+html {
+  font-size: 62.5%;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
+/* .main-div {
   min-height: 100vh;
+  background: #060822;
+  display: flex;
+  justify-content: center;
+} */
+
+figure {
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
 }
 
-.App-link {
-  color: #61dafb;
+figure img {
+  width: 100px;
+  height: 110px;
+  margin-top: 80px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+figcaption {
+  font-size: 16px;
+  color: #fff;
+  letter-spacing: 1px;
+  font-weight: 300;
+}
+
+.addItems {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.addItems input {
+  width: 330px;
+  height: 35px;
+  background: #fff;
+  color: black;
+  margin-top: 14px;
+  padding-left: 8px;
+  border: none;
+  outline: none;
+  border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+  position: relative;
+}
+
+.addItems .add-btn {
+  position: absolute;
+  font-size: 18px;
+  padding: 30px 20px 14px 320px;
+  background-color: transparent;
+  color: #2980b9;
+  cursor: pointer;
+}
+
+.showItems {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.showItems .eachItem {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 10px 0 10px;
+  width: 330px;
+  height: 35px;
+  background: #3c40c6;
+  color: #fff;
+  margin-top: 27px;
+  border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+}
+
+.showItems .eachItem h3 {
+  font-size: 12px;
+  background-color: transparent;
+  text-transform: capitalize;
+}
+.showItems .eachItem .delete-btn {
+  font-size: 18px;
+  background-color: transparent;
 }
