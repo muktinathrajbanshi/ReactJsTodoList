@@ -60,6 +60,7 @@ figcaption {
   -ms-border-radius: 3px;
   -o-border-radius: 3px;
   cursor: pointer;
+  position: relative;
 }
 
 .addItems .add-btn {
@@ -69,6 +70,16 @@ figcaption {
   margin-left: 300px;
   background-color: transparent;
   color: #2980b9;
+  cursor: pointer;
+}
+
+.addItems .update-btn {
+  position: absolute;
+  font-size: 16px;
+  margin-top: -3px;
+  margin-left: 300px;
+  background-color: transparent;
+  color: green;
   cursor: pointer;
 }
 
@@ -88,14 +99,18 @@ figcaption {
   height: 37px;
   background: #3c40c6;
   color: #fff;
-  /* margin-top: 27px; */
   margin-top: 6px;
   border-radius: 3px;
   -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
   -ms-border-radius: 3px;
   -o-border-radius: 3px;
-  /* float: left; */
+}
+
+.icon-group {
+  display: flex;
+  gap: 10px;
+  background-color: transparent;
 }
 
 .showItems :hover {
@@ -112,10 +127,14 @@ figcaption {
   color: black;
 }
 
-.showItems .eachItem .delete-btn {
-  font-size: 14px;
+.edit-btn,
+.delete-btn {
   background-color: transparent;
+  font-size: 14px;
   cursor: pointer;
+}
+.eachItem:hover .edit-btn {
+  color: green;
 }
 
 .eachItem:hover .delete-btn {
