@@ -16,7 +16,14 @@ const Todo = () => {
     }
 
   }
-  // addItem();
+  
+  const deleteItem = (id) => {
+    console.log(id);
+    const updatedItems = items.filter((elem, ind) => {
+      return ind !== id;
+    });
+    setItems(updatedItems);
+  }
 
   return (
     <>
@@ -36,19 +43,16 @@ const Todo = () => {
             </div>
 
             <div className="showItems">
-
                 {
                   items.map((elem, ind) => {
                     return (
-                       <div className="eachItem">
+                       <div className="eachItem" key={ind}>
                         <h3>{ elem }</h3>
-                        <i className="fa-solid fa-trash delete-btn" title="Delete Item"></i>
+                        <i className="fa-solid fa-trash delete-btn" title="Delete Item" onClick={() => deleteItem(ind)}></i>
                       </div>
                     )
                   })
                 }
-
-               
             </div>
             <div className="showItems">
               <button className="btn effect-04" data-sm-link-text="Remove All"><span>CHECK LIST</span></button>
