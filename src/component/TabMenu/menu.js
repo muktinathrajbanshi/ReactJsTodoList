@@ -17,99 +17,59 @@ const Menu = [
     },
     {
         id: 3,
-        image: "./images/allupakoida.png",
-        name:"allu pakoida",
+        image: "./images/corn.png",
+        name:"corn",
         category:"breakfast",
-        price:"Rs.20",
-        description: "Crispy, spicy, savory, delicious, traditional, streetfood, golden, flavorful."
+        price:"Rs.10",
+        description: "Sweet, juicy, golden, crunchy, healthy, grilled, buttery, versatile."
     },
     {
         id: 4,
-        image: "./images/allupakoida.png",
-        name:"allu pakoida",
-        category:"evening",
-        price:"Rs.20",
-        description: "Crispy, spicy, savory, delicious, traditional, streetfood, golden, flavorful."
+        image: "./images/chola.png",
+        name:"chola",
+        category:"lunch",
+        price:"Rs.50",
+        description: "Spicy, hearty, tangy, protein-rich, flavorful, aromatic, traditional, satisfying."
     },
     {
         id: 5,
-        image: "./images/allupakoida.png",
-        name:"allu pakoida",
+        image: "./images/pizza.png",
+        name:"pizza",
         category:"evening",
-        price:"Rs.20",
-        description: "Crispy, spicy, savory, delicious, traditional, streetfood, golden, flavorful."
+        price:"Rs.80",
+        description: "Cheesy, savory, crispy, delicious, saucy, satisfying, popular, customizable."
     },
     {
         id: 6,
-        image: "./images/allupakoida.png",
-        name:"allu pakoida",
+        image: "./images/nonvegthali.png",
+        name:"Non-Veg Thali",
         category:"evening",
-        price:"Rs.20",
-        description: "Crispy, spicy, savory, delicious, traditional, streetfood, golden, flavorful."
+        price:"Rs.180",
+        description: "Spicy, rich, flavorful, hearty, diverse, meaty, aromatic, satisfying."
     },
     {
         id: 7,
-        image: "./images/allupakoida.png",
-        name:"allu pakoida",
+        image: "./images/sweet.png",
+        name:"sweets",
         category:"evening",
-        price:"Rs.20",
-        description: "Crispy, spicy, savory, delicious, traditional, streetfood, golden, flavorful."
+        price:"Rs.60",
+        description: "Sugary, delightful, colorful, soft, tempting, festive, creamy, joyful."
     },
     {
         id: 8,
-        image: "./images/allupakoida.png",
-        name:"allu pakoida",
+        image: "./images/rajmarice.png",
+        name:"Rajma Rice",
         category:"evening",
-        price:"Rs.20",
-        description: "Crispy, spicy, savory, delicious, traditional, streetfood, golden, flavorful."
+        price:"Rs.60",
+        description: "Comforting, hearty, spicy, nutritious, flavorful, wholesome, filling, delicious."
     },
     {
         id: 9,
-        image: "./images/allupakoida.png",
-        name:"allu pakoida",
+        image: "./images/samosa.png",
+        name:"Samosa",
         category:"evening",
-        price:"Rs.20",
-        description: "Crispy, spicy, savory, delicious, traditional, streetfood, golden, flavorful."
-    },
-    {
-        id: 10,
-        image: "./images/allupakoida.png",
-        name:"allu pakoida",
-        category:"evening",
-        price:"Rs.20",
-        description: "Crispy, spicy, savory, delicious, traditional, streetfood, golden, flavorful."
-    },
-    {
-        id: 11,
-        image: "./images/allupakoida.png",
-        name:"allu pakoida",
-        category:"evening",
-        price:"Rs.20",
-        description: "Crispy, spicy, savory, delicious, traditional, streetfood, golden, flavorful."
-    },
-    {
-        id: 12,
-        image: "./images/allupakoida.png",
-        name:"allu pakoida",
-        category:"evening",
-        price:"Rs.20",
-        description: "Crispy, spicy, savory, delicious, traditional, streetfood, golden, flavorful."
-    },
-    {
-        id: 13,
-        image: "./images/allupakoida.png",
-        name:"allu pakoida",
-        category:"evening",
-        price:"Rs.20",
-        description: "Crispy, spicy, savory, delicious, traditional, streetfood, golden, flavorful."
-    },
-    {
-        id: 14,
-        image: "./images/allupakoida.png",
-        name:"allu pakoida",
-        category:"evening",
-        price:"Rs.20",
-        description: "Crispy, spicy, savory, delicious, traditional, streetfood, golden, flavorful."
+        price:"Rs.10",
+        description: "Crispy, spicy, unique, flavorful, stuffed, crunchy, savory, delicious."
     },
 ];
 
