@@ -7,17 +7,24 @@ const GalleryReact = () => {
 
   const [items, setItems] = useState(Menu);
 
+  const filterItem = (catItem) => {
+    const updatedItems = Menu.filter((curElem) => {
+      return curElem.category === catItem;
+    });
+    setItems(updatedItems);
+  }
+
   return (
     <>
       <h1 className="mt-5 mb-5 text-center main-heading">Order Your Favourite Dish</h1>
       <hr />
       <div className="menu-tabs container">
             <div className="menu-tab d-flex justify-content-around">
-                <button className="btn btn-warning">Breakfast</button>
-                <button className="btn btn-warning">Lunch</button>
-                <button className="btn btn-warning">Evening</button>
-                <button className="btn btn-warning">Dinner</button>
-                <button className="btn btn-warning">All</button>
+                <button className="btn btn-warning" onClick={() => filterItem("breakfast")}>Breakfast</button>
+                <button className="btn btn-warning"onClick={() => filterItem("lunch")}>Lunch</button>
+                <button className="btn btn-warning"onClick={() => filterItem("evening")}>Evening</button>
+                <button className="btn btn-warning"onClick={() => filterItem("dinner")}>Dinner</button>
+                <button className="btn btn-warning"onClick={() => setItems(Menu)}>All</button>
 
             </div>
       </div>

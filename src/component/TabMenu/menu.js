@@ -43,7 +43,7 @@ const Menu = [
         id: 6,
         image: "./images/nonvegthali.png",
         name:"Non-Veg Thali",
-        category:"evening",
+        category:"dinner",
         price:"Rs.180",
         description: "Spicy, rich, flavorful, hearty, diverse, meaty, aromatic, satisfying."
     },
@@ -51,7 +51,7 @@ const Menu = [
         id: 7,
         image: "./images/sweet.png",
         name:"sweets",
-        category:"evening",
+        category:"dinner",
         price:"Rs.60",
         description: "Sugary, delightful, colorful, soft, tempting, festive, creamy, joyful."
     },
@@ -59,7 +59,7 @@ const Menu = [
         id: 8,
         image: "./images/rajmarice.png",
         name:"Rajma Rice",
-        category:"evening",
+        category:"lunch",
         price:"Rs.60",
         description: "Comforting, hearty, spicy, nutritious, flavorful, wholesome, filling, delicious."
     },
