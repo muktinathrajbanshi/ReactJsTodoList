@@ -71,14 +71,7 @@ const Menu = [
         price:"Rs.10",
         description: "Crispy, spicy, unique, flavorful, stuffed, crunchy, savory, delicious."
     },
-    {
-        id: 10,
-        image: "./images/samosa.png",
-        name:"Samosa",
-        category:"timepass",
-        price:"Rs.10",
-        description: "Crispy, spicy, unique, flavorful, stuffed, crunchy, savory, delicious."
-    },
+    
 ];
 
 export default Menu;

@@ -28,6 +28,14 @@ html {
   border-bottom-left-radius: 10px !important;
 }
 
+.img-fluid:hover {
+  transform: scale(1.2) !important;
+  -webkit-transform: scale(1.2) !important;
+  -moz-transform: scale(1.2) !important;
+  -ms-transform: scale(1.2) !important;
+  -o-transform: scale(1.2) !important;
+}
+
 h1 {
   text-transform: uppercase;
 }
